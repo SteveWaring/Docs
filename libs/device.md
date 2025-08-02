@@ -78,6 +78,7 @@ Opens the remote with the specified ``id`` on the device.
 ````lua
 dev.switch("Unified.Chrome");
 ````
+For custom remotes, the ``id`` to use is name.remote, where name is the value given in the meta.prop file for meta.author with any spaces removed, and remote is the name of the file, again with any spaces removed. For example if meta.prop contains the line ``meta.author: Fred Bloggs`` and the file name of the remote is ``My Remote`` then ``id`` will be FredBloggs.MyRemote
 
 
 
